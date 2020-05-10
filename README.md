@@ -16,6 +16,7 @@ Deze poster is gemaakt om een festival te promoten. De felle kleuren zijn herken
 
 Ik heb hier en daar het kunstwerk aangepast zodat het beter in het scherm past.
 
+![Kunstwerk responsive design](https://user-images.githubusercontent.com/45418246/81500193-cc7fc580-92d0-11ea-8f19-a2a85391540b.png)
 
 
 Links zie je het originele kunstwerk die ik in Illustrator heb nagemaakt. Daarnaast zie je de Mobiele versie, en de Desktop versie. Ik heb een achtergrond toegevoegd om de lege plekken die ontstaan in te vullen. Ik heb ook het logo en de tekst weggehaald omdat ik me volledig wil focussen op het kunstwerk zelf.
