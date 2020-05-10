@@ -11,3 +11,12 @@ Toen ik opzoek ging naar een kunstwerk deed ik dit met de opdracht in gedachte. 
 [Summerworks 2010](https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22Denver%20Art%20Museum%22/_/detail/relevance/asc/7073/7/21472/summerworks-2010/1)
 
 Deze poster is gemaakt om een festival te promoten. De felle kleuren zijn herkenbaar voor hun en in combinatie met de illustraties laten ze dag en nacht zien, twee dingen die tegenover elkaar staan.
+
+# Kunstwerk aanpassen
+
+Ik heb hier en daar het kunstwerk aangepast zodat het beter in het scherm past.
+
+
+
+Links zie je het originele kunstwerk die ik in Illustrator heb nagemaakt. Daarnaast zie je de Mobiele versie, en de Desktop versie. Ik heb een achtergrond toegevoegd om de lege plekken die ontstaan in te vullen. Ik heb ook het logo en de tekst weggehaald omdat ik me volledig wil focussen op het kunstwerk zelf.
+
