@@ -7,9 +7,28 @@ body {
     margin: 0;
 }
 
+
+.st4{
+animation: rotate 40s infinite linear;
+transform-origin: center center;
+}
+
+.st4:hover {
+    transform: rotate(360deg) scale(1.5);
+    
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg) scale(1);
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     svg {
         width: 100%;
     }
   }
+
