@@ -1,3 +1,7 @@
+:root{
+    --circle-size: 1;
+}
+
 body {
     background-color: #f4e828;
     display: flex;
@@ -7,23 +11,73 @@ body {
     margin: 0;
 }
 
-
+/*middelste zon */
 .st4{
-animation: rotate 40s infinite linear;
-transform-origin: center center;
+    animation: rotate 40s infinite linear;
+    transform-origin: center center;
 }
 
 .st4:hover {
-    transform: rotate(360deg) scale(1.5);
-    
+    --circle-size: 1.2; 
+}
+
+.cloud .part{
+    /* animation naam, tijd, infinite, linear */
+/* animation: scale 3s infinite linear;
+fill: #fff;
+transform-origin: center center; */
+animation: scale 3s infinite linear;
+fill: #fff;
+transform-origin: 15% 75%;
+}
+
+/*Wolken*/
+circle.part:nth-of-type(1) {
+/* animation delay */
+animation-delay: .4s;
+}
+circle.part:nth-of-type(2) {
+/* animation delay */
+animation-delay: .5s;
+}
+circle.part:nth-of-type(3) {
+/* animation delay */
+animation-delay: .6s;
+}
+circle.part:nth-of-type(4) {
+/* animation delay */
+animation-delay: .3s;
 }
 
 @keyframes rotate{
+    0%{
+        transform: rotate(0deg) scale(var(--circle-size));
+    }
+
     100%{
-        transform: rotate(360deg) scale(1);
+        transform: rotate(360deg) scale(var(--circle-size));
     }
 }
 
+@keyframes scale{
+    0%{
+    transform: scale(1)
+    }
+
+    25%{
+        transform: scale(1.1)
+    }
+    
+    50%{
+        transform: scale(1)
+    }
+    75%{
+        transform: scale(1.1)
+    }
+     100%{
+         transform: scale(1)
+     }
+}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
