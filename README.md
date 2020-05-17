@@ -21,3 +21,8 @@ Ik heb hier en daar het kunstwerk aangepast zodat het beter in het scherm past.
 
 Links zie je het originele kunstwerk die ik in Illustrator heb nagemaakt. Daarnaast zie je de Mobiele versie, en de Desktop versie. Ik heb een achtergrond toegevoegd om de lege plekken die ontstaan in te vullen. Ik heb ook het logo en de tekst weggehaald omdat ik me volledig wil focussen op het kunstwerk zelf.
 
+# Animatie en interactie
+
+Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen noem ik de "Idle" animations. Zo zie je bijvoorbeeld de draaiende en zwevende elementen. Elk symbool binnen een cirkel is interactief en zal, na erop te klikken, een animatie afspelen.
+
+![idle state](https://user-images.githubusercontent.com/45418246/82160002-7c859d80-9892-11ea-9e8c-f6cf78fcda77.gif)
