@@ -47,7 +47,7 @@ De zon in het midden heb ik met `scale` groter gemaakt. Om de zon ook tijdens de
 
 
 ## Disco wolk
-Als je op de wolk klikt zal het gehele scherm gaan schudden alsof er een storm plaats vindt. De achtergrond kleuren veranderen terwijl er een kort fragment van een nummer afspeelt. Dit nummer is van een van de bands die op dit festival optreedt. Omdat het kunstwerk met een festival te maken heeft leek het me leuk om ook van muziek gebruik te maken. De muziek heb ik met `audio.play` direct in de javascript laten afspelen. Het trillen van het scherm en de kleuren stoppen dankzij de `animation-iteration-count` tegelijk met de muziek. De wolk zelf pulseert doordat hij bestaat uit 4 losse cirkels. Door de `:nth-of-type()` te gebruiken heb ik ze ieder een eigen `animation-delay` meegegeven waardoor de wolk natuurlijker lijkt te bewegen.
+Als je op de wolk klikt zal het gehele scherm gaan schudden alsof er een storm plaats vindt. De achtergrond kleuren veranderen terwijl er een kort fragment van een nummer afspeelt. Dit nummer is van een van de bands die op dit festival optreden. Omdat het kunstwerk met een festival te maken heeft leek het me leuk om ook van muziek gebruik te maken. De muziek heb ik met `audio.play` direct in de javascript laten afspelen. Het trillen van het scherm en de kleuren stoppen dankzij de `animation-iteration-count` tegelijk met de muziek. De wolk zelf pulseert doordat hij bestaat uit 4 losse cirkels. Door de `:nth-of-type()` te gebruiken heb ik ze ieder een eigen `animation-delay` meegegeven waardoor de wolk natuurlijker lijkt te bewegen.
 
 ![Discowolk](https://user-images.githubusercontent.com/45418246/82759933-9eca6e80-9df0-11ea-8dc1-7c61d2e1f621.gif)
 
