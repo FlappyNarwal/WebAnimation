@@ -41,6 +41,25 @@ In het thema van dag en nacht, wat een van de achterliggende ideeën was van het
 ![Dag en nacht](https://user-images.githubusercontent.com/45418246/82759564-8f4a2600-9dee-11ea-9908-da4d1ec231a8.gif)
 
 ## Grote zon
-De zon in het midden heb ik met `scale` groter gemaakt. Om de zon ook tijdens de hoverstate te laten draaien heb ik een custom property gebruikt die dit probleem oploste. _(Deze zie je ook terug bij de kleine zon aan de rechterkant)_
+De zon in het midden heb ik met `scale` groter gemaakt. Om de zon ook tijdens de hoverstate te laten draaien heb ik een custom property gebruikt. _(Deze zie je ook terug bij de kleine zon aan de rechterkant)_
+
+![Grote zon](https://user-images.githubusercontent.com/45418246/82759779-b0f7dd00-9def-11ea-8eb4-1ae5d3bab8b1.gif)
+
+
+## Disco wolk
+Als je op de wolk klikt zal het gehele scherm gaan schudden alsof er een storm plaats vindt. De achtergrond kleuren veranderen terwijl er een kort fragment van een nummer afspeelt. Dit nummer is van een van de bands die op dit festival optreedt. Omdat het kunstwerk met een festival te maken heeft leek het me leuk om ook van muziek gebruik te maken. De muziek heb ik met `audio.play` direct in de javascript laten afspelen. Het trillen van het scherm en de kleuren stoppen dankzij de `animation-iteration-count` tegelijk met de muziek. De wolk zelf pulseert doordat hij bestaat uit 4 losse cirkels. Door de `:nth-of-type()` te gebruiken heb ik ze ieder een eigen `animation-delay` meegegeven waardoor de wolk natuurlijker lijkt te bewegen.
+
+![Discowolk](https://user-images.githubusercontent.com/45418246/82759933-9eca6e80-9df0-11ea-8dc1-7c61d2e1f621.gif)
+
+## Verlegen cirkel
+Als je op deze cirkel klikt zal hij krimpen en verdwijnen. Hiervoor heb ik met `opacity`gewerkt.
+
+![verlegen cirkel](https://user-images.githubusercontent.com/45418246/82760036-4cd61880-9df1-11ea-97fe-72244e7b6587.gif)
+
+
+## Verander de achtergrond
+Door op de letters "P, Y & G" te drukken kan je de achtergrond kleur veranderen in "Purple, Yellow & Green". Om dit voor elkaar te krijgen heb ik het `keypress` event gebruikt en de de keycode gelinkt aan een specifieke kleur.
+
+![Verander de achtergrond](https://user-images.githubusercontent.com/45418246/82760159-0f25bf80-9df2-11ea-80de-433afdb02d7a.gif)
 
 
