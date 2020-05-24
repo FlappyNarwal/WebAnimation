@@ -4,6 +4,8 @@ Link: https://flappynarwal.github.io/WebAnimation/.
 
 Video: https://www.loom.com/share/0076036664044b27955e110276705dec  & https://www.loom.com/share/61c4e8497dd04b5abefe937767e2262f  & https://www.loom.com/share/fabcbb6a2c964509bddabc77abb00a3d
 
+_(Loom besloot op eigen houtje mijn recordings af te kappen, dus vandaar dat er meerdere links zijn)_
+
 # Kunstwerk kiezen
 
 Toen ik opzoek ging naar een kunstwerk deed ik dit met de opdracht in gedachte. Ik wilde iets wat ik redelijk snel kon namaken in Illustrator, maar waar ook genoeg elementen inzaten die ik kon laten bewegen. Ik heb uiteindelijk het volgende kunstwerk uit AIGA Archive gevonden:
