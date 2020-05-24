@@ -25,7 +25,7 @@ Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen
 ![Idle state](https://user-images.githubusercontent.com/45418246/82759155-cb2fbc00-9deb-11ea-9522-bcf16272bed1.gif)
 
 ## Rollend balletje
-Bij deze animatie heb ik gebruik gemaakt van 2 animaties die tegelijkertijd afspelen. Ik heb hier gebruik gemaakt van `translate` om de positie van het balletje te veranderen. Met `easing` en de `cubic-bezier` heb ik geprobeerd dit vloeiend te laten afspelen. Met `skew` heb ik het balletje de illiusie van snelheid gegeven.
+Bij deze animatie heb ik gebruik gemaakt van 2 animaties die tegelijkertijd afspelen. Ik heb hier gebruik gemaakt van `translate` om de positie van het balletje te veranderen. Met `easing` en de `cubic-bezier` heb ik geprobeerd dit vloeiend te laten afspelen. Met `skew` heb ik het balletje de illusie van snelheid gegeven.
 
 ![Rollend balletje](https://user-images.githubusercontent.com/45418246/82759317-eea73680-9dec-11ea-8793-d258994c0e6a.gif)
 
