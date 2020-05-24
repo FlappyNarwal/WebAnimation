@@ -2,7 +2,7 @@
 
 Link: https://flappynarwal.github.io/WebAnimation/.
 
-Video:
+Video: https://www.loom.com/share/0076036664044b27955e110276705dec
 
 # Kunstwerk kiezen
 
