@@ -1,7 +1,4 @@
 
-# De opdracht
-
-Hier komt een korte beschrijving van de opdracht.
 
 # Kunstwerk kiezen
 
@@ -25,4 +22,25 @@ Links zie je het originele kunstwerk die ik in Illustrator heb nagemaakt. Daarna
 
 Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen noem ik de "Idle" animations. Zo zie je bijvoorbeeld de draaiende en zwevende elementen. Elk symbool binnen een cirkel is interactief en zal, na erop te klikken, een animatie afspelen.
 
-![idle state](https://user-images.githubusercontent.com/45418246/82160002-7c859d80-9892-11ea-9e8c-f6cf78fcda77.gif)
+![Idle state](https://user-images.githubusercontent.com/45418246/82759155-cb2fbc00-9deb-11ea-9522-bcf16272bed1.gif)
+
+## Rollend balletje
+Bij deze animatie heb ik gebruik gemaakt van 2 animaties die tegelijkertijd afspelen. IK heb hier gebruik gemaakt van `translate` om de positie van het balletje te veranderen. Met `easing` en de `cubic-bezier` heb ik geprobeerd dit vloeiend te laten afspelen. Met `skew` heb ik het balletje de illiusie van snelheid gegeven.
+
+![Rollend balletje](https://user-images.githubusercontent.com/45418246/82759317-eea73680-9dec-11ea-8793-d258994c0e6a.gif)
+
+
+## Draaiende maan
+De maan kan oneindig lang doordraaien. Omdat het een SVG is heb ik `Transform-origin` gebruikt om de maan zoveel mogelijk vanuit het midden te laten draaien.
+
+![Draaiende maan](https://user-images.githubusercontent.com/45418246/82759415-9ae91d00-9ded-11ea-9775-5b3cb7f0cf4f.gif)
+
+## Dag en Nacht
+In het thema van dag en nacht, wat een van de achterliggende ideeën was van het kunstwerk, kan je door het klikken op de ster en zon de achtergrond van licht naar donker veranderen. Hier moest ik met de `eventlistener` duidelijk maken dat als ik op een van die objecten klik, dat dan de achtergrond veranderd. Dit heb ik gedaan door een `class` op de `body` te zetten op het moment dat een van deze objecten geselecteerd wordt. Voor het contrast veranderd de zon in het midden ook mee van kleur.
+
+![Dag en nacht](https://user-images.githubusercontent.com/45418246/82759564-8f4a2600-9dee-11ea-9908-da4d1ec231a8.gif)
+
+## Grote zon
+De zon in het midden heb ik met `scale` groter gemaakt. Om de zon ook tijdens de hoverstate te laten draaien heb ik een custom property gebruikt die dit probleem oploste. _(Deze zie je ook terug bij de kleine zon aan de rechterkant)_
+
+
