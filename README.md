@@ -25,7 +25,7 @@ Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen
 ![Idle state](https://user-images.githubusercontent.com/45418246/82759155-cb2fbc00-9deb-11ea-9522-bcf16272bed1.gif)
 
 ## Rollend balletje
-Bij deze animatie heb ik gebruik gemaakt van 2 animaties die tegelijkertijd afspelen. IK heb hier gebruik gemaakt van `translate` om de positie van het balletje te veranderen. Met `easing` en de `cubic-bezier` heb ik geprobeerd dit vloeiend te laten afspelen. Met `skew` heb ik het balletje de illiusie van snelheid gegeven.
+Bij deze animatie heb ik gebruik gemaakt van 2 animaties die tegelijkertijd afspelen. Ik heb hier gebruik gemaakt van `translate` om de positie van het balletje te veranderen. Met `easing` en de `cubic-bezier` heb ik geprobeerd dit vloeiend te laten afspelen. Met `skew` heb ik het balletje de illiusie van snelheid gegeven.
 
 ![Rollend balletje](https://user-images.githubusercontent.com/45418246/82759317-eea73680-9dec-11ea-8793-d258994c0e6a.gif)
 
@@ -58,7 +58,7 @@ Als je op deze cirkel klikt zal hij krimpen en verdwijnen. Hiervoor heb ik met `
 
 
 ## Verander de achtergrond
-Door op de letters "P, Y & G" te drukken kan je de achtergrond kleur veranderen in "Purple, Yellow & Green". Om dit voor elkaar te krijgen heb ik het `keypress` event gebruikt en de de keycode gelinkt aan een specifieke kleur.
+Door op de letters "P, Y & G" te drukken kan je de achtergrond kleur veranderen in "Purple, Yellow & Green". Om dit voor elkaar te krijgen heb ik het `keypress` event gebruikt en de de keycode gelinkt aan een specifieke kleur. Dit is de enige animatie die niet werkt op mobiel.
 
 ![Verander de achtergrond](https://user-images.githubusercontent.com/45418246/82760159-0f25bf80-9df2-11ea-80de-433afdb02d7a.gif)
 
