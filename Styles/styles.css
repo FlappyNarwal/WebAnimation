@@ -14,6 +14,21 @@ body {
     
 }
 
+body.active{
+    animation: nighttime 2s linear;
+    animation-fill-mode: forwards;
+}
+
+body.active2{
+    animation: daytime 2s linear;
+}
+
+body.active5{
+    animation: rumble 2s, crazyColors 2s;
+    animation-iteration-count: 8;
+    
+}
+
 /*cirkel wit*/
 .st0-1{
     fill: white;
@@ -42,7 +57,11 @@ body {
     transform-origin: center 15%;
 }
 
-
+.st2-3.active{
+    animation: roll 8s linear, colorChange2 ease-out 8s;
+    transition: cubic-bezier(0.4, 0, 0.37, 1.01);
+    position: absolute;
+}
    
 /*maan*/
 .st2-4{
@@ -96,6 +115,13 @@ fill: #f4e828;
 
 .st4.active{
     animation: grow 5s linear;
+}
+.st4.active3{
+    fill:#F7E826;
+}
+
+.st4.active4{
+    fill:#191910;
 }
 
 .st4:hover {
@@ -302,6 +328,24 @@ animation-delay: .3s;
 
 }
 
+@keyframes colorChange2{
+    0%{
+       fill: #29A9E1;
+    }
+    25%{
+        fill: rgb(233, 124, 255);
+    }
+    50%{
+        fill: rgb(122, 180, 255)
+    }
+    75%{
+        fill: rgb(255, 132, 49)
+    }
+    100%{
+        fill: #29A9E1;
+    }
+
+}
 /*@keyframes backgroundChange1{
 
     100%{
@@ -376,6 +420,95 @@ animation-delay: .3s;
     }
 }
 
+@keyframes roll {
+
+10%{
+    transform: translate(0px, 107px);
+    
+}
+20%{
+transform: translate(350px, 256px)  skew(5deg, 0deg);
+}
+
+30% {
+    transform: translate(254px, 385px)  skew(-5deg, 0deg);
+}
+40% {
+    transform: translate(0px, 510px) skew(-5deg, 0deg);
+}
+
+50% {
+    transform: translate(343px, 665px)  skew(5deg, 0deg);
+}
+60% {
+    transform: translate(713px, 760px);
+}
+
+70% {
+    transform: translate(713px, -166px);
+}
+80%{
+
+    transform: translate(0px, -166px);
+}
+90%{
+
+    transform: translate(0px, 59px);
+}
+}
+
+@keyframes nighttime{
+100%{
+    background-color: black;
+}
+}
+
+@keyframes daytime{
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color:#F7E826;
+    }
+    }
+
+    @keyframes rumble{
+
+        10%, 90%{
+        transform: translate3d(-1px, 0px, 0px);
+        }
+
+        20%, 80% {
+            transform: translate3d(2px, 0, 0);
+          }
+        
+          30%, 50%, 70% {
+            transform: translate3d(-4px, 0, 0);
+          }
+        
+          40%, 60% {
+            transform: translate3d(4px, 0, 0);
+          }
+    }
+
+    @keyframes crazyColors{
+        25%{
+            background-color: rgb(255, 128, 37);
+        }
+
+        50%{ background-color: rgb(255, 95, 215);
+
+        }
+
+        75%{
+            background-color: rgb(61, 139, 255);
+        }
+
+        100%{
+            background-color: rgb(255, 103, 103);
+
+        }
+    }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */

@@ -44,6 +44,36 @@ document.getElementsByClassName('st2-4')[0].addEventListener('click', function()
     document.getElementsByClassName('st2-4')[0].classList.toggle('active');
 })
 
+document.getElementsByClassName('cloud')[0].addEventListener('click', function(){
+    document.getElementsByClassName('cloud')[0].classList.toggle('active');
+})
+
+document.getElementsByClassName('st2-3')[0].addEventListener('click', function(){
+    document.getElementsByClassName('st2-3')[0].classList.toggle('active');
+})
+
+document.getElementsByClassName('st3-2')[0].addEventListener('click', function(){
+    document.getElementsByTagName('body')[0].classList.toggle('active');
+    document.getElementsByClassName('st4')[0].classList.toggle('active3');
+})
+
+document.getElementsByClassName('st3-1')[0].addEventListener('click', function(){
+    document.getElementsByTagName('body')[0].classList.toggle('active2');
+    document.getElementsByClassName('st4')[0].classList.toggle('active4');
+    
+})
+
+document.getElementsByClassName('cloud')[0].addEventListener('click', musicPlay);
+document.getElementsByClassName('cloud')[0].addEventListener('click', function(){
+    document.getElementsByTagName('body')[0].classList.toggle('active5');
+
+    
+})
+
+function musicPlay(){
+    var audio = new Audio ("./sounds/muziek.mp3")
+    audio.play();
+}
 // Zo kan het ook als ik fancy wil zijn.
 // document.addEventListener('click', function(){
 //     clicked(event.target)
