@@ -1,5 +1,7 @@
 # Bekijk hier het bewegende kunstwerk
-Link:
+
+Link: https://flappynarwal.github.io/WebAnimation/.
+
 Video:
 
 # Kunstwerk kiezen
@@ -60,8 +62,14 @@ Als je op deze cirkel klikt zal hij krimpen en verdwijnen. Hiervoor heb ik met `
 
 
 ## Verander de achtergrond
-Door op de letters "P, Y & G" te drukken kan je de achtergrond kleur veranderen in "Purple, Yellow & Green". Om dit voor elkaar te krijgen heb ik het `keypress` event gebruikt en de de keycode gelinkt aan een specifieke kleur. Dit is de enige animatie die niet werkt op mobiel.
+Door op de letters "P, Y & G" te drukken kan je de achtergrond kleur veranderen in "Purple, Yellow & Green". Om dit voor elkaar te krijgen heb ik het `keypress` event gebruikt en de de keycode gelinkt aan een specifieke kleur. 
 
 ![Verander de achtergrond](https://user-images.githubusercontent.com/45418246/82760159-0f25bf80-9df2-11ea-80de-433afdb02d7a.gif)
+
+
+## Responsive Design.
+Op mobiel past het kunstwerk verticaal in het scherm. Alle animaties werken op de keyboard events na.
+
+![Responsive design](https://user-images.githubusercontent.com/45418246/82760812-69c11a80-9df6-11ea-8caf-c9f389a759f6.gif)
 
 
