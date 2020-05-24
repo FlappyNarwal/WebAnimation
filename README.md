@@ -20,7 +20,7 @@ Links zie je het originele kunstwerk die ik in Illustrator heb nagemaakt. Daarna
 
 # Animatie en interactie
 
-Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen noem ik de "Idle" animations. Zo zie je bijvoorbeeld de draaiende en zwevende elementen. Elk symbool binnen een cirkel is interactief en zal, na erop te klikken, een animatie afspelen.
+Bij het laden van de pagina wilde ik al wat beweging laten zien. Deze bewegingen noem ik de "Idle" animations. Zo zie je bijvoorbeeld de draaiende en zwevende elementen. Elk symbool binnen een driehoek is interactief en zal, na erop te klikken, een animatie afspelen.
 
 ![Idle state](https://user-images.githubusercontent.com/45418246/82759155-cb2fbc00-9deb-11ea-9522-bcf16272bed1.gif)
 
