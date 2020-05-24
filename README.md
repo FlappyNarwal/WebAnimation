@@ -4,7 +4,7 @@ Link: https://flappynarwal.github.io/WebAnimation/.
 
 Video: https://www.loom.com/share/0076036664044b27955e110276705dec  & https://www.loom.com/share/61c4e8497dd04b5abefe937767e2262f  & https://www.loom.com/share/fabcbb6a2c964509bddabc77abb00a3d
 
-_(Loom besloot op eigen houtje mijn recordings af te kappen, dus vandaar dat er meerdere links zijn)_
+_(Loom besloot op eigen houtje mijn recordings af te kappen, ik moest bepaalde delen opnieuw opnemen dus vandaar dat er meerdere links zijn)_
 
 # Kunstwerk kiezen
 
